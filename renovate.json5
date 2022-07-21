@@ -3,7 +3,9 @@
   "extends": ["config:base"],
   "hostRules": [
     {
-      "matchHost": "github.com",
+      "matchHost": "https://pkgs.dev.azure.com/uifabric/renovate-repros/_packaging/demo-feed/npm/registry/",
+      "hostType": "npm",
+      "username": "VssSessionToken",
       "token": "not a token",
       "abortOnError": true
     }
