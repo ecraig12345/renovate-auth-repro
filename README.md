@@ -2,7 +2,7 @@
 
 `.npmrc` configures a private registry as the source for all packages.
 
-The Renovate config has a `hostRules` block for that private registry with an invalid token and `abortOnError: true`.
+The Renovate config has a `hostRules` block for that private registry with an invalid `token` and `abortOnError: true`. (I've also seen this issue on self-hosted with invalid GitHub tokens.)
 
 ```json
 {
